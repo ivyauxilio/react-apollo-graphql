@@ -1,0 +1,20 @@
+p.small {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+img.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
