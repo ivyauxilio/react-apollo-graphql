@@ -60,8 +60,8 @@ function Main() {
         </div>
         
         <div className="container d-flex justify-content-center">
-            <button type="button" class="btn btn-primary" onClick={() => setNext(next - 1)}> Prev </button>
-            <button type="button" class="btn btn-primary mr-2" onClick={() => setNext(next + 1)}> Next </button>
+            <button type="button" class="btn btn-primary mr-2" onClick={() => setNext(next - 1)}> Prev </button>
+            <button type="button" class="btn btn-primary" onClick={() => setNext(next + 1)}> Next </button>
         </div>
         <hr/>
     </div>
